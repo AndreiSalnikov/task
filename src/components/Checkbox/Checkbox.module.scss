@@ -1,0 +1,37 @@
+.checkbox {
+  display: flex;
+  border: 1px solid #000;
+  border-radius: 8px;
+  max-width: 485px;
+  width: 100%;
+  padding: 10px;
+  transition: all .3s ease-out;
+  margin-bottom: 20px;
+
+
+  &__input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 1px solid green;
+    background: green;
+    position: absolute;
+  }
+
+  &_type_correct {
+    border: 1px solid rgba(0,130,0,0.7);
+  }
+
+  &_type_incorrect {
+    border: 1px solid rgba(255,0,0,0.7);
+  }
+
+  &__label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+
+}
