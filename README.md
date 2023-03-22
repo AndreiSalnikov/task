@@ -1,1 +1,1 @@
-# task-yandex
+# task
